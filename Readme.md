@@ -1,3 +1,7 @@
+![PythonAnywhere](https://img.shields.io/badge/pythonanywhere-%232F9FD7.svg?style=for-the-badge&logo=pythonanywhere&logoColor=151515)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+
 # Python With Coqui TTS Implementation
 
 This repository contains setup instructions for working with Coqui TTS, a deep learning toolkit for Text-to-Speech synthesis.
@@ -18,6 +22,14 @@ Create and activate a Python virtual environment:
 # Windows
 python -m venv venv
 .\venv\Scripts\activate
+
+# macOS/Linux
+python -m venv venv
+source venv/bin/activate
+
+# Ubuntu
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ### 2. Install Required Libraries
