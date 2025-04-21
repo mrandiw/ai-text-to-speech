@@ -52,8 +52,17 @@ tts --list_models
 ### 4. Run
 Check available TTS models:
 ```bash
+# for multy model
 python main.py
+
+# for single model
+python main_single.py
 ```
 
 ## Next Steps
 After installation, you can start experimenting with different TTS models and configurations available through the Coqui TTS library.
+
+## Downloaded Model Located in 
+```bash
+C:\Users\User\.cache\whisper
+```
