@@ -64,5 +64,5 @@ After installation, you can start experimenting with different TTS models and co
 
 ## Downloaded Model Located in 
 ```bash
-C:\Users\User\.cache\whisper
+C:\Users\User\AppData\Local\tts
 ```
