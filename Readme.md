@@ -28,7 +28,7 @@ python -m venv venv
 source venv/bin/activate
 
 # Ubuntu
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 ```
 
@@ -38,6 +38,8 @@ Install the necessary Python packages:
 # Install Coqui TTS and Gradio interface
 pip install coqui-tts
 pip install gradio
+# for NVIDIA GPU
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
 ```
 
 ### 3. Verify Installation

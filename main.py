@@ -13,7 +13,6 @@ print(f"Using device: {device}")
 
 # Initialize TTS
 tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
-# tts = TTS("tts_models/en/ljspeech/tacotron2-DDC").to(device)
 
 # Function to generate audio from text
 def generate_audio(text, speaker, language):
@@ -49,10 +48,10 @@ languages = {
     "Chinese": "zh-cn",
     "Japanese": "ja",
     "Korean": "ko",
-    "Hindi": "hi"
+    "Hindi": "hi",
 }
 
-with gr.Blocks(theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Advanced Text-to-Speech Generator", theme=gr.themes.Soft()) as demo:
     gr.Markdown(
         """
         # 🎙️ Advanced Text-to-Speech Generator
